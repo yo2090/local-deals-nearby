@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import Header from '@/components/Header';
 import { 
@@ -24,7 +25,10 @@ import {
   Users,
   Activity,
   TrendingUp,
-  Calendar
+  Calendar,
+  Search,
+  MoreVertical,
+  PieChart
 } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import CreateOfferForm from '@/components/offers/CreateOfferForm';
@@ -409,6 +413,3 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
-
-// Import these at the top of your file
-import { Search, MoreVertical, PieChart } from 'lucide-react';
